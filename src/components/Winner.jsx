@@ -13,11 +13,9 @@ export const Winner = () => {
         <section className='winner'>
             <div className='text'>
                 <h2> {winnerText} </h2>
-                
                 <header className='win'>
                     {winner && <Square> {winner} </Square>}
                 </header>
-
                 <Footer resetGame={resetGame}/>
             </div>
         </section>
